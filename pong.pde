@@ -27,7 +27,7 @@ void setup() {
 
 void draw() {
     // Background color... RGB
-    background(0,255,0);
+    background(155,0,0);
 
     // Increment x and y by speed of ball
     ball_x += ball_dir * 6.0;
