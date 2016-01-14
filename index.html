@@ -3,7 +3,7 @@
 <head>
   <title>Aaron's Pong Game</title>
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css.css">
   <style>
     .scoreboard {
       background-color: #2ba6cb;
@@ -14,15 +14,17 @@
 <body>
   <div class="container">
     <div class="col-md-4 scoreboard">
-      <h1 id="total">Total Hits = 0</h1>
-      <h1 id="highscore">High Score Yo = 0</h1>
+      <!--h1 id="total">Total Hits = 0</h1-->
+      <h1 id="highscore">High Score = 0</h1>
       <h1 id="score">Score = 0</h1>
     </div>
     <div class="col-md-8 gameboard">
-      <center>
-        <h1 class="cover-heading">My Pong Game</h1>
-        <canvas id="pong" data-processing-sources="pong.pde"/></canvas>
-      </center>
+      <h1 class="cover-heading">Pong</h1>
+      <canvas id="pong" data-processing-sources="pong.pde"/></canvas>
+    </div>
+    <div class="sidebar">
+      <iframe src="https://diluted.hoppy.haus/gc/viewpost.php?postid=1" width="100%" height="150%"></iframe>
+      <iframe src="https://diluted.hoppy.haus/gc/reply.php?postid=1" style="height: 300px; position:relative; top: -; left: 0px;" width="100%" height="150%"></iframe>
     </div>
   </div>
 
