@@ -5,6 +5,8 @@
 
 The basic idea is to use a simple *Pong* game to learn some HTML, CSS, ProcessingJS, and github pages.
 
+http://aaronr.github.io/pong/
+
 ---
 
 ## Step #1
