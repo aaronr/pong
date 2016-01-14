@@ -1,7 +1,7 @@
 // Global variables for the ball
 float ball_x;
 float ball_y;
-float ball_dir = 1; // Direction in x 
+float ball_dir = 1; // Direction in x
 float ball_size = 7;  // Radius of ball
 float dy = 2;  // Change in y
 
@@ -28,7 +28,7 @@ void setup() {
 
 void draw() {
     // Background color... RGB
-    background(155,0,0);
+    background(97,97,97);
 
     // Increment x and y by speed of ball
     ball_x += ball_dir * 6.0;
@@ -49,7 +49,7 @@ void draw() {
     // Test to see if the ball is touching the paddle
     float paddle_x_edge = width-dist_wall-paddle_width-ball_size;
 
-    if((ball_x > paddle_x_edge) && (ball_y > paddle_y - paddle_height - ball_size) && 
+    if((ball_x > paddle_x_edge) && (ball_y > paddle_y - paddle_height - ball_size) &&
        (ball_y < paddle_y + paddle_height + ball_size) && (ball_dir>0)) {
 
         // If we hit the paddle... change direction
@@ -74,7 +74,7 @@ void draw() {
             if(dy >  5) { dy =  5; }
             if(dy < -5) { dy = -5; }
         }
-    } 
+    }
 
     // If ball hits back wall, reverse direction
     if(ball_x < ball_size && ball_dir == -1) {
@@ -89,10 +89,10 @@ void draw() {
     }
 
     // Draw ball
-    fill(0,0,255);
+    fill(255,255,255);
     ellipse(ball_x, ball_y, ball_size, ball_size);
 
     // Draw the paddle
     fill(255,255,255);
-    rect(width-dist_wall, paddle_y, paddle_width, paddle_height);  
+    rect(width-dist_wall, paddle_y, paddle_width, paddle_height);
 };
