@@ -12,7 +12,7 @@ var paddle_height = 40;
 var dist_wall = 8;
 
 // Adding total hits here...
-//float total = 0;
+float total = 0;
 float highscore = 0;
 float score = 0;
 
@@ -60,8 +60,8 @@ void draw() {
         document.getElementById("score").innerHTML = "Score = " + score;
 
         // Adding in the total hits here...
-        //total += 1;
-        //document.getElementById("total").innerHTML = "Total Hits = " + total;
+        total += 1;
+        document.getElementById("total").innerHTML = "Total Hits = " + total;
 
         if (score>highscore) {
           highscore = score;
