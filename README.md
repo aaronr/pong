@@ -10,7 +10,7 @@ The basic idea is to use a simple *Pong* game to learn some HTML, CSS, Processin
 ## Step #1
 From your own user account in github (i.e. you have logged into github), navigate to https://github.com/aaronr/pong and press the `fork` button in the upper right corner of the page.  This will `fork` the pong repository into your personal github account!
 
-![fork][images/fork.png]
+![fork](images/fork.png)
 
 ## Step #2
 Since the default branch of the pong repository is for [gh-pages](https://pages.github.com/) you should now be able to navigate to your github pages URL and view the pong game:
@@ -45,7 +45,7 @@ Navigate to the pong.pde file and change the color of the ball, paddle, and the 
 ## Exercise #6
 Navigate to the pong.pde and index.html files and add in the `Total Hits` a player has made since loading the page.  There is code already commented into the files... find them and uncomment them to get the element to appear (via the html file) and update (via the pde file)
 
-![total][images/total.png]
+![total](images/total.png)
 
 ---
 
@@ -56,7 +56,7 @@ In the github interface for your pong repository find the `clone` url... it will
 
 `https://github.com/aaronr/pong.git`
 
-![clone][images/clone.png]
+![clone](images/clone.png)
 
 In the terminal window execute the following (using the URL you found above for YOUR repository):
 
