@@ -80,6 +80,8 @@ You will see something like:
 
 You are now running a web server locally... on your very own desktop!  You can now point your browser to http://localhost:8000/ and see your pong game. If you edit a file now locally... all you have to do is re-fresh the webpage for localhost and you will see the changes!
 
+![localhost](images/localhost.png)
+
 Here is what the whole process would look like:
 
 ```
