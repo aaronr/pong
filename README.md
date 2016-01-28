@@ -19,6 +19,8 @@ Since the default branch of the pong repository is for [gh-pages](https://pages.
 
 `https://<username>.github.io/pong`
 
+If you are not seeing the pong game at the URL above (i.e. swapping in your username for the <username> placeholder above), then it could be that git pages have not been initialized for your new account.  If this is the case try to edit one of the files (any file) in the repoisitory... something as simple as adding a space to one of the files should do.  Once you make a single edit to any file... try to visit the URL for your pong game again... hopefully that will get the URL working.  Sometimes it takes a few minutes to propogate... so get some coffee and come back and try again in 5 minutes!
+
 After you play the game for a few minutes to see some of the features it will be time to dive in!
 
 ## Read over the index.html file
